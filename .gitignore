@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Pi session data (never publish user sessions)
+.pi/agent/sessions/
+*.jsonl
+
+# Backups
+*.bak
+
+# Working/internal docs (not part of the product)
+project_status.md
+github_guide.md
